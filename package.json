@@ -1,0 +1,29 @@
+{
+  "name": "aura-apex-banking-management",
+  "version": "2.0.0",
+  "description": "Enterprise Schedule Commercial Banking Management System inspired by Indian banking operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/runner.js",
+    "test:e2e": "node test-e2e-banking.js",
+    "start": "node index.js",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "banking",
+    "fintech",
+    "rbi-compliance",
+    "imps",
+    "neft",
+    "rtgs",
+    "upi",
+    "fixed-deposits",
+    "loans",
+    "netbanking"
+  ],
+  "author": "Aura Apex Bank Development Team",
+  "private": true
+}
