@@ -1,28 +1,6 @@
-# Environment and secrets (strictly excluded from git)
+node_modules/
 .env
 .env.*
-*.env
-backend/.env
-frontend/.env
-
-# Dependencies
-node_modules/
-*/node_modules/
-backend/node_modules/
-frontend/node_modules/
-
-# Build artifacts and caches
+!.env.example
 dist/
-frontend/dist/
 build/
-coverage/
-.cache/
-*.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Zip archives
-*.zip
