@@ -15,7 +15,7 @@ An enterprise-grade, full-stack digital banking management platform inspired by 
 
 | Service | URL | Description |
 | :--- | :--- | :--- |
-| **Frontend Web Application** | [http://localhost:5173](http://localhost:5173) | Vite + React 18 Single-Page App |
+| **Frontend Web Application** | [http://localhost:5175](http://localhost:5175) | Vite + React 18 Single-Page App |
 | **Backend REST API Server** | [http://localhost:5000](http://localhost:5000) | Express.js Core Banking API Engine |
 | **API Health Status** | [http://localhost:5000/api/health](http://localhost:5000/api/health) | Real-time System Heartbeat |
 | **Demo Credentials Endpoint** | [http://localhost:5000/api/demo-users](http://localhost:5000/api/demo-users) | Pre-configured evaluation users |
@@ -187,7 +187,7 @@ cd frontend
 npm install
 npm run dev
 ```
-*Frontend runs at `http://localhost:5173`*.
+*Frontend runs at `http://localhost:5175`*.
 
 ### Step 4: Run Automated Verification Suite
 To execute the complete end-to-end verification script:
